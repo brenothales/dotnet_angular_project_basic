@@ -1,4 +1,4 @@
-using DatingApp.API.Model;
+using DatingApp.API.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.Data
