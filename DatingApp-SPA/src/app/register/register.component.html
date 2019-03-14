@@ -7,11 +7,10 @@
   </div>
 
   <div class="form-group">
-    <label for="FavoriteValue">What is Favorite Value</label>
-    <select class="form-group" name="" id="FavoriteValue">
+    <label for="FavouriteValue">What is Favorite Value</label>
+    <select class="form-control" name="" id="FavouriteValue">
       <option *ngFor="let value of valuesFromHome" [value]="value">{{ value.name }}</option>
     </select>
-    
   </div>
 
   <div class="form-group">
@@ -22,5 +21,4 @@
     <button class="btn btn-success" type="submit">Register</button>
     <button class="btn btn-default" type="button" (click)="cancel()">Cancel</button>
   </div>
-  
 </form>
