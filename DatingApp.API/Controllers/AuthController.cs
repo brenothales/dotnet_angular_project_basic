@@ -35,7 +35,6 @@ namespace DatingApp.API.Controllers
                 return BadRequest("Username already exists");
             }
 
-
             var userToCreate = new User
             {
                 Username = userForRegisterDto.Username
@@ -45,7 +44,6 @@ namespace DatingApp.API.Controllers
 
             return StatusCode(201);
         }
-
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)

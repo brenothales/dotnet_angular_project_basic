@@ -19,6 +19,13 @@ dotnet ef database update
 
 dotnet ef migrations add AddedUserEntity
 
+Lista a migrations
+dotnet ef migrations list
+
+remover as migratios
+dotnet ef migrations remove
+dotnet ef migrations remove 201910_nome_migrations
+
 
 
 
